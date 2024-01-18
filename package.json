@@ -1,0 +1,18 @@
+{
+  "name": "install-prac",
+  "version": "1.0.0",
+  "description": "a practice with naked npm start",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Riley",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "express": "^4.18.2",
+    "node": "^21.2.0",
+    "pg": "^8.11.3"
+  }
+}
